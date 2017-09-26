@@ -38,6 +38,22 @@ a {
   height: 50px;
 }
 
+.flex-container {
+  padding-top: 69px;
+}
+
+.mission {
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+  background-color: white;
+  text-align: center;
+}
+
 .tea-image {
   height: 200px;
   width: 300px;
