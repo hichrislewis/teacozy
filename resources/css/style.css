@@ -1,5 +1,36 @@
 /* Tag Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: black;
+  background-color: white;
+}
+
+a {
+  color: seashell;
+}
 /* Class Styles */
+.topnav {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
 .tea-image {
   height: 200px;
   width: 300px;
