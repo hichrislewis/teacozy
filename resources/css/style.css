@@ -60,6 +60,11 @@ a {
   background-color: white;
 }
 
+.featured-tea {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .tea-image {
   height: 200px;
   width: 300px;
