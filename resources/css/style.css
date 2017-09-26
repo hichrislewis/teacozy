@@ -43,6 +43,8 @@ a {
 }
 
 .mission {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   height: 700px;
   width: 1200px;
@@ -50,8 +52,12 @@ a {
 }
 
 .mission-text {
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+  width: 100%;
+  background-color: white;
 }
 
 .tea-image {
