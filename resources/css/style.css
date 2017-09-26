@@ -16,6 +16,9 @@ a {
 }
 /* Class Styles */
 .topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: black;
   height: 69px;
   width: 100%;
@@ -23,6 +26,9 @@ a {
   border-bottom: 1px solid seashell;
 }
 
+.topnav span {
+  padding: 10px;
+}
 .logo {
   padding-left: 10px;
 }
