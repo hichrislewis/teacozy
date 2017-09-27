@@ -7,8 +7,9 @@
 html {
   font-family: Helvetica;
   font-size: 22px;
-  color: black;
-  background-color: white;
+  color: seashell;
+  background-color: black;
+  text-align: center;
 }
 
 a {
@@ -90,5 +91,26 @@ div {
 .tea {
   padding: 5px;
   text-align: center;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
 }
 /* ID Styles */
